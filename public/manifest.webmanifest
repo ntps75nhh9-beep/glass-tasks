@@ -1,0 +1,9 @@
+{
+  "name": "Glass Tasks",
+  "short_name": "Tasks",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#f7f9fc",
+  "lang": "ja"
+}
