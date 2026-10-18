@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "db:local": "wrangler d1 execute glass-tasks-db --local --file=schema.sql",
-    "db:remote": "wrangler d1 execute glass-tasks-db --remote --file=schema.sql",
+    "db:local": "wrangler d1 execute glass-task-db --local --file=schema.sql",
+    "db:remote": "wrangler d1 execute glass-task-db --remote --file=schema.sql",
     "test": "node --test tests/*.test.js"
   },
   "devDependencies": {
