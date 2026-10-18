@@ -12,7 +12,7 @@ iOS Safari first / desktop responsive task manager with immediate input, swipe t
 
 ## Setup
 
-1. Create Cloudflare D1 database named `glass-tasks-db` and copy its database ID into `wrangler.jsonc` replacing `REPLACE_WITH_D1_DATABASE_ID`.
+1. Use the existing Cloudflare D1 database `glass-task-db` (database ID already configured in `wrangler.jsonc`).
 2. Create Google OAuth web client in Google Cloud Console. Add the exact allowed redirect `https://YOUR-WORKERS-HOST/auth/callback` and allowed origin `https://YOUR-WORKERS-HOST`. Configure OAuth consent screen.
 3. Set secrets via Wrangler, never in Git:
    ```bash
